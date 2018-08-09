@@ -4,9 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <meta property="og:title" content="Portfolio | Umesh Kumar Dhakar"/>
+    <meta property="og:url" content="https://umeshdhakar.netlify.com"/>
+    <meta property="og:site_name" content="Portfolio"/>
+    <meta property="og:type" content="website"/>
+    <title>Portfolio | Umesh Kumar Dhakar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <style>
+        .menu-list {
+            cursor: default;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +33,13 @@
         </div>
         <div class="hero-foot">
             <div class="container">
-                <br>
+                <div class="tabs is-centered is-medium">
+                    <ul>
+                        <li><a href="#works" class="scroller">My Work</a></li>
+                        <li><a href="#tools" class="scroller">Technologies</a></li>
+                        <li><a href="#links" class="scroller">Contact</a></li>
+                    </ul>
+                </div>
                 <div class="subtitle has-text-centered">
                     <a class="scroller" href="#works">
                         <span class="icon is-medium">
@@ -306,7 +321,7 @@
                                     <li><a>CSS</a></li>
                                     <li><a>JavaScript</a></li>
                                     <li><a>JQuery</a></li>
-                                    <li><a>AngualrJS</a></li>
+                                    <li><a>AngularJS</a></li>
                                 </ul>
                             </div>
                         </article>
@@ -405,8 +420,7 @@
                                 </div>
                                 <div class="field">
                                     <div class="control">
-                                        <textarea class="textarea" type="text" name="message" placeholder="Write message here..." required>
-                                        </textarea>
+                                        <textarea class="textarea" type="text" name="message" placeholder="Write message here..." required></textarea>
                                     </div>
                                 </div>
                                 <div class="field is-grouped">
